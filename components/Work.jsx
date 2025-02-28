@@ -75,14 +75,14 @@ const Work = ({ isDarkMode }) => {
       <div className="flex gap-4 mt-6">
         <button
           onClick={handlePrev}
-          className="w-9 h-9 flex items-center justify-center border border-gray-500 rounded-full 
+          className="w-9 h-9 flex items-center justify-center border border-gray-400 rounded-full 
           shadow-md backdrop-blur-md bg-white/30 dark:bg-black/30 text-lg font-Ovo font-semibold transition 
           hover:scale-110 hover:bg-white/50 dark:hover:bg-black/50">
           &lt;
         </button>
         <button
           onClick={handleNext}
-          className="w-9 h-9 flex items-center justify-center border border-gray-500 rounded-full 
+          className="w-9 h-9 flex items-center justify-center border border-gray-400 rounded-full 
           shadow-md backdrop-blur-md bg-white/30 dark:bg-black/30 text-lg font-Ovo font-semibold transition 
           hover:scale-110 hover:bg-white/50 dark:hover:bg-black/50">
           &gt;

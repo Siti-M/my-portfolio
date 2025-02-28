@@ -34,7 +34,7 @@ const Contact = () => {
     bg-no-repeat bg-center bg-[length:90%_auto] dark:bg-none'>
       <h4 className='text-center mb-2 text-lg font-Ovo'>Let's connect with me</h4>
       <h2 className='text-center text-5xl font-Ovo'>Get in touch</h2>
-      <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
+      <p className='text-center max-w-2xl mx-auto mt-5 mb-12 px-6 font-Ovo'>
         I'd love to hear from you! if you have any questions or feedback, feel free to drop me a message.
       </p>
 
@@ -57,7 +57,7 @@ const Contact = () => {
         </div>
         
         <button type='submit'
-        className='py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80
+        className='py-1 px-4 md:py-3 md:px-8 w-max flex items-center justify-between gap-2 bg-black/80
         text-white rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border-[0.5px] dark:hover:bg-darkHover'
         >Submit now <Image src={assets.right_arrow_white} alt='' className='w-4' /> </button>
         

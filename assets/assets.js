@@ -64,16 +64,25 @@ export const workData = [
             'Integrated mapping tool for precise asset tracking and visualization.'
         ],
         bgImage: '/work-1.png',
-        detail:['CodeIgniter 3', 'PostgreSQL', 'HTML', 'CSS', 'Leaflet.js'],
+        detail:['CodeIgniter 3', 'PostgreSQL', 'HTML/CSS', 'Leaflet.js'],
     },
     {
         title: 'Notes App (Backend)',
         description: [
-            'a RESTful Notes-App built with Hapi framework, enabling Create, Read, Update, and Delete (CRUD) operations',
-            'Deployed on AWS for scalability, with API functionality verified via Postman.'
+            'a RESTful Notes-App built with Hapi framework, enabling Create, Read, Update, and Delete (CRUD) operations.',
+            'Deployed on AWS for scalability, with API functionality verified via Postman'
         ],
         bgImage: '/work-2.png',
         detail:['Hapi.js', 'Node.js','JavaScript', 'REST API', 'Postman'],
+    },
+    {
+        title: 'Malaria App Detection',
+        description: [
+            'Detect the presence of malaria parasites in blood smear images.',
+            'Analys blood smear images using machine learning tecniques with 93.25% accuracy.'
+        ],
+        bgImage: '/work-3.png',
+        detail:['Python', 'Streamlit'],
     },
 ];
 
