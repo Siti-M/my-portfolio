@@ -44,10 +44,10 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
         <ul className={`hidden md:flex items-center gap-4 lg:gap-8
         rounded-full px-6 py-2 md:px-12 md:py-3 truncate
         ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent"}`}>
-          <li><a className='font-Ovo' onClick={closeSideMenu} href="#top">Home</a></li>
-          <li><a className='font-Ovo' onClick={closeSideMenu} href="#about">About me</a></li>
-          <li><a className='font-Ovo' onClick={closeSideMenu} href="#work">My Work</a></li>
-          <li><a className='font-Ovo' onClick={closeSideMenu} href="#contact">Contact me</a></li>
+          <li><a className='font-SpaceGrotesk' onClick={closeSideMenu} href="#top">Home</a></li>
+          <li><a className='font-SpaceGrotesk' onClick={closeSideMenu} href="#about">About me</a></li>
+          <li><a className='font-SpaceGrotesk' onClick={closeSideMenu} href="#work">My Work</a></li>
+          <li><a className='font-SpaceGrotesk' onClick={closeSideMenu} href="#contact">Contact me</a></li>
         </ul>
 
         {/* Right-side buttons */}
@@ -56,7 +56,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             <Image src={isDarkMode ? assets.sun_icon : assets.moon_icon} alt='' className='w-6' />
           </button>
           <a href="#contact" className='hidden lg:flex items-center gap-3 px-6 py-2.5 md:px-10
-          border border-gray-500 rounded-full font-Ovo dark:border-white/50'>
+          border border-gray-500 rounded-full font-SpaceGrotesk dark:border-white/50'>
             Contact 
             <Image src={isDarkMode ? assets.arrow_icon_dark : assets.arrow_icon} alt="" className='w-3' />
           </a>
@@ -75,10 +75,10 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             <Image src={isDarkMode ? assets.close_white : assets.close_black} alt='' className='w-5 cursor-pointer' />
           </div>
 
-          <li><a className='font-Ovo' onClick={closeSideMenu} href="#top">Home</a></li>
-          <li><a className='font-Ovo' onClick={closeSideMenu} href="#about">About me</a></li>
-          <li><a className='font-Ovo' onClick={closeSideMenu} href="#work">My Work</a></li>
-          <li><a className='font-Ovo' onClick={closeSideMenu} href="#contact">Contact me</a></li>
+          <li><a className='font-SpaceGrotesk' onClick={closeSideMenu} href="#top">Home</a></li>
+          <li><a className='font-SpaceGrotesk' onClick={closeSideMenu} href="#about">About me</a></li>
+          <li><a className='font-SpaceGrotesk' onClick={closeSideMenu} href="#work">My Work</a></li>
+          <li><a className='font-SpaceGrotesk' onClick={closeSideMenu} href="#contact">Contact me</a></li>
         </ul>
       </nav>
     </>

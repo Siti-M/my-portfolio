@@ -1,10 +1,4 @@
 import user_image from './user-image.png';
-import code_icon from './code-icon.png';
-import code_icon_dark from './code-icon-dark.png';
-import edu_icon from './edu-icon.png';
-import edu_icon_dark from './edu-icon-dark.png';
-import project_icon from './project-icon.png';
-import project_icon_dark from './project-icon-dark.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
@@ -25,15 +19,11 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import { faHtml5, faCss3Alt, faPhp, faJs, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faDatabase, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 export const assets = {
     user_image,
-    code_icon,
-    code_icon_dark,
-    edu_icon,
-    edu_icon_dark,
-    project_icon,
-    project_icon_dark,
     right_arrow_white,
     logo,
     logo_dark,
@@ -53,7 +43,8 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    faArrowRight
 };
 
 export const workData = [
@@ -86,8 +77,42 @@ export const workData = [
     },
 ];
 
-export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Skills', description: 'HTML, CSS, PHP, JavaScript, Python, MySql' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Bachelor of Informatics at UPN "Veteran" Yogyakarta' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 8 projects' }
+export const skills = [
+    { title: 'HTML', icon: faHtml5 },
+    { title: 'CSS', icon: faCss3Alt },
+    { title: 'PHP', icon: faPhp },
+    { title: 'JavaScript', icon: faJs },
+    { title: 'Python', icon: faPython },
+    { title: 'MySql', icon: faDatabase },
+  ];
+  
+  export const education = [
+    "Bachelor's Degree in Information Technology",
+    "UPN Veteran Yogyakarta",
+    "Graduated: 2024",
+    "GPA: 3.57/4.00",
+  ];
+  
+  export const certification = [
+    {
+      title: "Cloud Practitioner Essentials (Belajar Dasar AWS Cloud) - Dicoding",
+      link: "https://dicoding.com/certificates/07Z64W0MRPQR",
+    },
+    {
+      title: "Belajar Back-End Pemula dengan JavaScript - Dicoding",
+      link: "https://dicoding.com/certificates/N9ZO97V9YXG5",
+    },
+    {
+      title: "Belajar Dasar Pemrograman JavaScript - Dicoding",
+      link: "https://dicoding.com/certificates/N9ZO97V9YXG5",
+    },
+    {
+      title: "Belajar Dasar AI - Dicoding",
+      link: "https://www.dicoding.com/certificates/2VX3K14KJXYQ",
+    },
+    {
+      title: "Software Development: Database Programming - BNSP (LSP TIK)",
+      link: "#", 
+    },
 ];
+  

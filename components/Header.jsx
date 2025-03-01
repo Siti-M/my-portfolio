@@ -18,7 +18,7 @@ const Header = () => {
         <Image src={assets.profile_img} alt='' className='rounded-full w-32' />        
       </motion.div>
       <motion.h3
-        className="text-xl md:text-3xl mb-3"
+        className="text-2xl md:text-3xl mb-3"
         initial="hidden"
         animate="visible"
         variants={{
@@ -31,17 +31,17 @@ const Header = () => {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.1 }}
-            className="font-Ovo" 
+            className="font-SpaceGrotesk" 
           >
             {letter}
           </motion.span>
         ))}
       </motion.h3>
    
-      <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
+      <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-SpaceGrotesk'>
         fullstack web developer
       </h1>
-        <p className='max-w-2xl mx-auto font-Ovo'>
+        <p className='max-w-2xl mx-auto font-SpaceGrotesk'>
             Turning ideas into functional, fast, and visually engaging web applications—one line of code at a time</p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
             <motion.a 

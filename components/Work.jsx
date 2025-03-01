@@ -18,8 +18,8 @@ const Work = ({ isDarkMode }) => {
 
   return (
     <div id="work" className="w-full px-6 md:px-[12%] py-10 scroll-mt-20 flex flex-col items-center">
-      <h2 className="text-4xl md:text-5xl font-Ovo">My Work</h2>
-      <p className="max-w-2xl mt-4 mb-10 font-Ovo text-center">
+      <h2 className="text-4xl md:text-5xl font-SpaceGrotesk">My Work</h2>
+      <p className="max-w-2xl mt-4 mb-10 font-SpaceGrotesk text-center">
         Welcome to my portfolio! Explore my projects collection.
       </p>
 
@@ -34,7 +34,6 @@ const Work = ({ isDarkMode }) => {
             </div>
           </div>
 
-        {/* Title & Description */}
         <div className="order-2 md:order-1 flex flex-col justify-between h-full px-6 md:px-10 text-left">
           <div>
             <h2 className="text-2xl font-semibold">{workData[currentIndex].title}</h2>
@@ -76,14 +75,14 @@ const Work = ({ isDarkMode }) => {
         <button
           onClick={handlePrev}
           className="w-9 h-9 flex items-center justify-center border border-gray-400 rounded-full 
-          shadow-md backdrop-blur-md bg-white/30 dark:bg-black/30 text-lg font-Ovo font-semibold transition 
+          shadow-md backdrop-blur-md bg-white/30 dark:bg-black/30 text-lg font-SpaceGrotesk font-semibold transition 
           hover:scale-110 hover:bg-white/50 dark:hover:bg-black/50">
           &lt;
         </button>
         <button
           onClick={handleNext}
           className="w-9 h-9 flex items-center justify-center border border-gray-400 rounded-full 
-          shadow-md backdrop-blur-md bg-white/30 dark:bg-black/30 text-lg font-Ovo font-semibold transition 
+          shadow-md backdrop-blur-md bg-white/30 dark:bg-black/30 text-lg font-SpaceGrotesk font-semibold transition 
           hover:scale-110 hover:bg-white/50 dark:hover:bg-black/50">
           &gt;
         </button>

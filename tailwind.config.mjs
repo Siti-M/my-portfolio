@@ -14,7 +14,7 @@ export default {
       },
       fontFamily: {
         Outfit: ["Outfit", "sans-serif"],
-        Ovo: ["Ovo", "serif"],
+        SpaceGrotesk: ["var(--font-space-grotesk)", "sans-serif"],
       },
       boxShadow:{
         'brown' : '3px 3px 0 #776B5D',
