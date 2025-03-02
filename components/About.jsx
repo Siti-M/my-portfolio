@@ -17,8 +17,9 @@ const About = ({ isDarkMode }) => {
 
         <div className='flex-1 flex flex-col justify-center'>
           <p className='mb-5 max-w-full sm:max-w-2xl font-SpaceGrotesk text-left sm:text-justify break-words'>
-            I'm an IT graduate passionate about web development and continuous learning. I have experience with PHP, SQL, and JavaScript, and I'm actively exploring full-stack technologies like React and Node.js. I enjoy building functional, scalable, and visually engaging web applications.
-            My goal is to keep improving, take on new challenges, and contribute to meaningful projects. Whether it's crafting seamless user experiences or optimizing backend performance, I'm always eager to learn and grow as a developer.
+          I am an IT graduate with strong passion for web development and continuous learning.  With experience in PHP, SQL, and JavaScript, I have built dynamic and data-driven web applications. 
+          Currently, I'm exploring  modern technologies like React and Node.js to expand my skill set as a full-stack developer.  I enjoy creating functional, scalable, and visually engaging web applications.
+          My goal is to keep improving, take on new challenges, and contribute to meaningful projects. Whether it's crafting seamless user experiences or optimizing backend performance, I'm always eager to learn and grow as a developer.
           </p>
 
           {/* Menu*/}
