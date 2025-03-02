@@ -39,10 +39,10 @@ const Header = () => {
       </motion.h3>
    
       <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-SpaceGrotesk'>
-        fullstack web developer
+        Fullstack Web Developer
       </h1>
         <p className='max-w-2xl mx-auto font-SpaceGrotesk'>
-            Turning ideas into functional, fast, and visually engaging web applications—one line of code at a time</p>
+            Turning ideas into functional, fast, and visually engaging web applications</p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
             <motion.a 
             initial={{y: 30, opacity: 0}}

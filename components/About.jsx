@@ -17,7 +17,8 @@ const About = ({ isDarkMode }) => {
 
         <div className='flex-1 flex flex-col justify-center'>
           <p className='mb-5 max-w-full sm:max-w-2xl font-SpaceGrotesk text-left sm:text-justify break-words'>
-            I'm an IT graduate passionate about web development and continuous learning. I have experience with PHP, SQL, and JavaScript and have been exploring full-stack technologies like React and Node.js. While I’m still growing as a developer, I enjoy building functional and visually engaging web applications. My goal is to keep improving, take on new challenges, and contribute to meaningful projects.
+            I'm an IT graduate passionate about web development and continuous learning. I have experience with PHP, SQL, and JavaScript, and I'm actively exploring full-stack technologies like React and Node.js. I enjoy building functional, scalable, and visually engaging web applications.
+            My goal is to keep improving, take on new challenges, and contribute to meaningful projects. Whether it's crafting seamless user experiences or optimizing backend performance, I'm always eager to learn and grow as a developer.
           </p>
 
           {/* Menu*/}
@@ -40,11 +41,11 @@ const About = ({ isDarkMode }) => {
 
           {/* Tab Content */}
           {activeTab === 'skills' && (
-            <ul className='grid grid-cols-2 sm:grid-cols-3 gap-8 max-w-2xl'>
+            <ul className='grid grid-cols-2 sm:grid-cols-4 gap-8 max-w-2xl'>
               {skills.map(({ title, icon }, index) => (
                 <li key={index} className='relative flex flex-col items-center cursor-pointer group'>
                   <span className='absolute top-[-15px] left-2/3 -translate-x-1/4 opacity-0 
-                    group-hover:opacity-100 bg-gray-700 text-white text-xs px-2 py-1 rounded-md 
+                    group-hover:opacity-100 bg-gray-500 dark:bg-gray-700 text-white text-xs px-2 py-1 rounded-md 
                     transition duration-300 whitespace-nowrap'>
                     {title}
                   </span>
@@ -66,7 +67,7 @@ const About = ({ isDarkMode }) => {
           )}
 
           {activeTab === 'certification' && (
-            <ul className='text-gray-600 dark:text-white space-y-3'>
+            <ul className='text-gray-600 dark:text-white space-y-1'>
               {certification.map((cert, index) => (
                 <li key={index} className="flex items-center gap-3">
                   <FontAwesomeIcon icon={assets.faArrowRight} className="text-black dark:text-white/80" />

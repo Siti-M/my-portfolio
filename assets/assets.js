@@ -19,7 +19,7 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
-import { faHtml5, faCss3Alt, faPhp, faJs, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faCss3Alt, faPhp, faJs, faPython, faGitAlt } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 export const assets = {
@@ -44,7 +44,7 @@ export const assets = {
     send_icon,
     right_arrow_bold,
     right_arrow_bold_dark,
-    faArrowRight
+    faArrowRight,
 };
 
 export const workData = [
@@ -84,6 +84,7 @@ export const skills = [
     { title: 'JavaScript', icon: faJs },
     { title: 'Python', icon: faPython },
     { title: 'MySql', icon: faDatabase },
+    { title: 'Git', icon: faGitAlt },
   ];
   
   export const education = [
