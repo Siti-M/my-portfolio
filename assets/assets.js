@@ -88,7 +88,7 @@ export const skills = [
   ];
   
   export const education = [
-    "Bachelor's Degree in Information Technology",
+    "Bachelor's Degree in Informatics",
     "UPN Veteran Yogyakarta",
     "Graduated: 2024",
     "GPA: 3.57/4.00",
